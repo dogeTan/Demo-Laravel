@@ -1,0 +1,17 @@
+body{
+    background: rgb(238, 209, 238);
+    color: rgb(2, 0, 0);
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+}
+
+p{
+    line-height: 1.6;
+}
+
+article + article {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c5c;
+}
