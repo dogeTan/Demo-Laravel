@@ -39,7 +39,7 @@
                             <a href="/?authors=]{{$post->author->username }}"> {{ $post->author->name }}</a>
                         </h5>
                     </div>
-                </div>
+                </div> 
 
                 <div class="col-span-8">
                     <div class="hidden lg:flex justify-between mb-6">
@@ -71,6 +71,22 @@
                         {!! $post->body !!}
                     </div>
                 </div>
+
+                <section>
+                    <article>
+                        <div>
+                            <img src="https://i.pravatar.cc/100" alt="">
+                        </div>
+
+                        <div>
+                            <header>
+                                <h3 class="font-bold">John Doe</h3>
+                                <p class="text-xs">Posted 8 months ago</p>
+                            </header>
+                        </div>
+                    </article>
+                </section>
+
             </article>
         </main>
     </section>
